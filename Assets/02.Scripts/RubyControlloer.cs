@@ -8,7 +8,7 @@ public class RubyControlloer : MonoBehaviour
 #if (!UNITY_EDITOR && UNITY_ANDROID)
     public float speed = 3f;
 #else
-     float speed = 50f;
+     float speed = 3f;
 #endif
 
     Rigidbody2D rigidbody2d;
